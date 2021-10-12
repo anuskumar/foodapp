@@ -29,6 +29,12 @@ Route::get('backend/login', function () {
 
 });
 
+Route::get('/phpinfo', function() {
+    return response()->json([
+     'stuff' => phpinfo()
+    ]);
+ });
+
 
 Route::get('/', function () {
     return view('welcome');
