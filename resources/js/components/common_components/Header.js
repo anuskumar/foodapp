@@ -47,7 +47,7 @@ function Header() {
       <div className="row align-items-center">
         <div className="col-lg-3 col-md-4 col-5">
           <div className="logo-area">
-            <a href="/"><img src="frontend_assets/images/logo/i-logo.png" alt="logo" /></a>
+            <a href="#/"><img src="frontend_assets/images/logo/i-logo.png" alt="logo" /></a>
           </div>
         </div>
         <div className="col-lg-5">
