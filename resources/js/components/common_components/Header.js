@@ -120,8 +120,8 @@ function Header() {
             {/*  Start Mainmenu Nav*/}
             <nav className="main-navigation">
               <ul>
-                {/* <li><Link to="/" replace >Home</Link></li> */}
-                <li><a href="/">Home</a></li>
+                <li><Link to="/" replace >Home</Link></li>
+                {/* <li><a href="/">Home</a></li> */}
                 <li><Link to="/shop" replace >Shop</Link></li>
                 <li><Link to="/about" replace >About Us</Link></li>
                 <li><Link to="/contact-us" replace >Contact Us</Link></li>
